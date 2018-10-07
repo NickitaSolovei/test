@@ -1,0 +1,45 @@
+body {
+    padding: 0 20px;
+    font-size: 16px;
+    font-family: "Arial", sans-serif;
+    max-width: 1024px;
+    margin: 10px auto;
+    box-sizing: border-box;
+    /*background-color: azure;
+    border: 1px solid black;*/
+}
+
+h1 {
+    color: #f5f5f5;
+    text-shadow: 2px 2px 0 #cccccc;
+}
+
+.blockHeader {
+    padding: 10px;
+    float: left;
+}
+
+header {
+    background-color: #618ad2;
+    margin: 10px 0;
+}
+
+/*.clearfix {
+    clear: both;
+}*/
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer {
+    background-color: #618ad2;
+}
+
+.blockCent {
+    width: 150px;
+    margin: 10px auto;
+    padding: 10px;
+}
